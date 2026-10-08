@@ -26,6 +26,12 @@ upstream folder as published, plus `LICENSE` and a `NOTICE` naming the upstream 
 | Japanese | `vosk-model-small-ja-0.22.tar.bz2` | 48 MB | `f9a6d317adb5b38f9056fc93cd1ad782486c34c2f5153c6dc85d4152f3b4ec58` | [vosk-model-small-ja-0.22.zip](https://alphacephei.com/vosk/models/vosk-model-small-ja-0.22.zip) |
 | Korean | `vosk-model-small-ko-0.22.tar.bz2` | 79 MB | `f258fce07a2eae997af16a61c6df65a032d5d2aa621ebf15418608d46091bf7f` | [vosk-model-small-ko-0.22.zip](https://alphacephei.com/vosk/models/vosk-model-small-ko-0.22.zip) |
 
+## Other models
+
+| Model | File | Size | SHA-256 | Source | Licence |
+|---|---|---|---|---|---|
+| Granite Speech 5.0 470M TurboCTC (4-bit) | `granite-speech-5.0-470m-turboctc-q4_k_m.tar.bz2` | 276 MB | `e83116206f48ab6d9651018173a0961b2a9011eee955374d6650d26517092957` | [handy-computer/granite-speech-5.0-470m-turboctc-gguf](https://huggingface.co/handy-computer/granite-speech-5.0-470m-turboctc-gguf) | Apache License 2.0 |
+
 ## Licences
 
 Every package keeps the licence of its upstream model, included inside the archive. This repository adds nothing
