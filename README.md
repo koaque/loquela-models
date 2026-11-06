@@ -31,6 +31,12 @@ upstream folder as published, plus `LICENSE` and a `NOTICE` naming the upstream 
 | Model | File | Size | SHA-256 | Source | Licence |
 |---|---|---|---|---|---|
 | Granite Speech 5.0 470M TurboCTC (4-bit) | `granite-speech-5.0-470m-turboctc-q4_k_m.tar.bz2` | 276 MB | `e83116206f48ab6d9651018173a0961b2a9011eee955374d6650d26517092957` | [handy-computer/granite-speech-5.0-470m-turboctc-gguf](https://huggingface.co/handy-computer/granite-speech-5.0-470m-turboctc-gguf) | Apache License 2.0 |
+| Granite Speech 5.0 470M TurboCTC, multilingual (4-bit) | `granite-speech-5.0-470m-turboctc-multilingual-q4_k_m.tar.bz2` | 276 MB | `66ed509c6ff2f49d478f8328fa6eedf4421231560a68e1be781f3220a8fd0485` | [ibm-granite/granite-speech-5.0-470m-turboctc@1dd23f46](https://huggingface.co/ibm-granite/granite-speech-5.0-470m-turboctc/tree/1dd23f46f6d4e6eae2531982ba2e33220086dd97) | Apache License 2.0 |
+
+The multilingual Granite file is IBM's 21 October 2026 revision, which had no ready-made GGUF. Loquela converted it
+to GGUF and quantized it to 4-bit with the converter of [transcribe.cpp](https://github.com/handy-computer/transcribe.cpp/tree/5700f127e38dd53c4735ea23ef743b4b538eacd4)
+at commit `5700f127`, patched to accept the revision's files and to record its seven languages; the weights are IBM's.
+The earlier English-only file stays for older app versions.
 
 ## Licences
 
